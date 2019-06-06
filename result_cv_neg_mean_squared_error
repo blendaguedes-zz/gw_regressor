@@ -1,0 +1,442 @@
+----------------------------------------------------------
+----------------------------------------------------------
+Best: -0.099585 using MLPRegressor(activation='logistic', alpha=0.0001, batch_size='auto',
+       beta_1=0.9, beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=10, momentum=0.9,
+       n_iter_no_change=10, nesterovs_momentum=True, power_t=0.5,
+       random_state=5, shuffle=True, solver='adam', tol=0.0001,
+       validation_fraction=0.1, verbose=False, warm_start=False)
+----------------------------------------------------------
+mean mae=-0.225723 (std=0.070266) with: {'activation': 'identity', 'alpha': 0.0001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.384763 (std=0.090692) with: {'activation': 'identity', 'alpha': 0.0001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.212796 (std=0.049140) with: {'activation': 'identity', 'alpha': 0.0001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.414210 (std=0.094652) with: {'activation': 'identity', 'alpha': 0.0001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.384763 (std=0.090692) with: {'activation': 'identity', 'alpha': 0.0001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.212796 (std=0.049140) with: {'activation': 'identity', 'alpha': 0.0001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225723 (std=0.070266) with: {'activation': 'identity', 'alpha': 0.0001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.384763 (std=0.090692) with: {'activation': 'identity', 'alpha': 0.0001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.212796 (std=0.049140) with: {'activation': 'identity', 'alpha': 0.0001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225723 (std=0.070266) with: {'activation': 'identity', 'alpha': 0.001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.385125 (std=0.089559) with: {'activation': 'identity', 'alpha': 0.001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.212789 (std=0.049138) with: {'activation': 'identity', 'alpha': 0.001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.414210 (std=0.094652) with: {'activation': 'identity', 'alpha': 0.001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.385125 (std=0.089559) with: {'activation': 'identity', 'alpha': 0.001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.212789 (std=0.049138) with: {'activation': 'identity', 'alpha': 0.001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225723 (std=0.070266) with: {'activation': 'identity', 'alpha': 0.001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.385125 (std=0.089559) with: {'activation': 'identity', 'alpha': 0.001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.212789 (std=0.049138) with: {'activation': 'identity', 'alpha': 0.001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225720 (std=0.070267) with: {'activation': 'identity', 'alpha': 0.01, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.385320 (std=0.089220) with: {'activation': 'identity', 'alpha': 0.01, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.212718 (std=0.049119) with: {'activation': 'identity', 'alpha': 0.01, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.414208 (std=0.094652) with: {'activation': 'identity', 'alpha': 0.01, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.385320 (std=0.089220) with: {'activation': 'identity', 'alpha': 0.01, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.212718 (std=0.049119) with: {'activation': 'identity', 'alpha': 0.01, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225720 (std=0.070267) with: {'activation': 'identity', 'alpha': 0.01, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.385320 (std=0.089220) with: {'activation': 'identity', 'alpha': 0.01, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.212718 (std=0.049119) with: {'activation': 'identity', 'alpha': 0.01, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225689 (std=0.070282) with: {'activation': 'identity', 'alpha': 0.1, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.384773 (std=0.088997) with: {'activation': 'identity', 'alpha': 0.1, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.211900 (std=0.049121) with: {'activation': 'identity', 'alpha': 0.1, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.414196 (std=0.094655) with: {'activation': 'identity', 'alpha': 0.1, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.384773 (std=0.088997) with: {'activation': 'identity', 'alpha': 0.1, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.211900 (std=0.049121) with: {'activation': 'identity', 'alpha': 0.1, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225689 (std=0.070282) with: {'activation': 'identity', 'alpha': 0.1, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.384773 (std=0.088997) with: {'activation': 'identity', 'alpha': 0.1, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.211900 (std=0.049121) with: {'activation': 'identity', 'alpha': 0.1, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.222383 (std=0.071835) with: {'activation': 'identity', 'alpha': 10, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.306684 (std=0.081362) with: {'activation': 'identity', 'alpha': 10, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.282421 (std=0.120668) with: {'activation': 'identity', 'alpha': 10, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.412813 (std=0.095009) with: {'activation': 'identity', 'alpha': 10, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.306684 (std=0.081362) with: {'activation': 'identity', 'alpha': 10, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.282421 (std=0.120668) with: {'activation': 'identity', 'alpha': 10, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.222383 (std=0.071835) with: {'activation': 'identity', 'alpha': 10, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.306684 (std=0.081362) with: {'activation': 'identity', 'alpha': 10, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.282421 (std=0.120668) with: {'activation': 'identity', 'alpha': 10, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.198386 (std=0.084972) with: {'activation': 'identity', 'alpha': 100, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.240108 (std=0.097712) with: {'activation': 'identity', 'alpha': 100, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.159072 (std=0.016474) with: {'activation': 'identity', 'alpha': 100, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.400648 (std=0.098144) with: {'activation': 'identity', 'alpha': 100, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.240108 (std=0.097712) with: {'activation': 'identity', 'alpha': 100, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.159072 (std=0.016474) with: {'activation': 'identity', 'alpha': 100, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.198386 (std=0.084972) with: {'activation': 'identity', 'alpha': 100, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.240108 (std=0.097712) with: {'activation': 'identity', 'alpha': 100, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.159072 (std=0.016474) with: {'activation': 'identity', 'alpha': 100, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.128450 (std=0.049784) with: {'activation': 'logistic', 'alpha': 0.0001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.099585 (std=0.039677) with: {'activation': 'logistic', 'alpha': 0.0001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.110186 (std=0.015810) with: {'activation': 'logistic', 'alpha': 0.0001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.396873 (std=0.255225) with: {'activation': 'logistic', 'alpha': 0.0001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.099585 (std=0.039677) with: {'activation': 'logistic', 'alpha': 0.0001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.110186 (std=0.015810) with: {'activation': 'logistic', 'alpha': 0.0001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.128450 (std=0.049784) with: {'activation': 'logistic', 'alpha': 0.0001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.099585 (std=0.039677) with: {'activation': 'logistic', 'alpha': 0.0001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.110186 (std=0.015810) with: {'activation': 'logistic', 'alpha': 0.0001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.128450 (std=0.049784) with: {'activation': 'logistic', 'alpha': 0.001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.099651 (std=0.039763) with: {'activation': 'logistic', 'alpha': 0.001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.110185 (std=0.015814) with: {'activation': 'logistic', 'alpha': 0.001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.396873 (std=0.255225) with: {'activation': 'logistic', 'alpha': 0.001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.099651 (std=0.039763) with: {'activation': 'logistic', 'alpha': 0.001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.110185 (std=0.015814) with: {'activation': 'logistic', 'alpha': 0.001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.128450 (std=0.049784) with: {'activation': 'logistic', 'alpha': 0.001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.099651 (std=0.039763) with: {'activation': 'logistic', 'alpha': 0.001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.110185 (std=0.015814) with: {'activation': 'logistic', 'alpha': 0.001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.128449 (std=0.049784) with: {'activation': 'logistic', 'alpha': 0.01, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.099702 (std=0.039833) with: {'activation': 'logistic', 'alpha': 0.01, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.110216 (std=0.015784) with: {'activation': 'logistic', 'alpha': 0.01, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.396872 (std=0.255225) with: {'activation': 'logistic', 'alpha': 0.01, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.099702 (std=0.039833) with: {'activation': 'logistic', 'alpha': 0.01, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.110216 (std=0.015784) with: {'activation': 'logistic', 'alpha': 0.01, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.128449 (std=0.049784) with: {'activation': 'logistic', 'alpha': 0.01, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.099702 (std=0.039833) with: {'activation': 'logistic', 'alpha': 0.01, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.110216 (std=0.015784) with: {'activation': 'logistic', 'alpha': 0.01, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.128446 (std=0.049779) with: {'activation': 'logistic', 'alpha': 0.1, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.100144 (std=0.040539) with: {'activation': 'logistic', 'alpha': 0.1, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.110159 (std=0.013704) with: {'activation': 'logistic', 'alpha': 0.1, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.396865 (std=0.255222) with: {'activation': 'logistic', 'alpha': 0.1, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.100144 (std=0.040539) with: {'activation': 'logistic', 'alpha': 0.1, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.110159 (std=0.013704) with: {'activation': 'logistic', 'alpha': 0.1, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.128446 (std=0.049779) with: {'activation': 'logistic', 'alpha': 0.1, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.100144 (std=0.040539) with: {'activation': 'logistic', 'alpha': 0.1, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.110159 (std=0.013704) with: {'activation': 'logistic', 'alpha': 0.1, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.128084 (std=0.049237) with: {'activation': 'logistic', 'alpha': 10, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.179427 (std=0.142643) with: {'activation': 'logistic', 'alpha': 10, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.135527 (std=0.065703) with: {'activation': 'logistic', 'alpha': 10, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.396070 (std=0.254927) with: {'activation': 'logistic', 'alpha': 10, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.179427 (std=0.142643) with: {'activation': 'logistic', 'alpha': 10, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.135527 (std=0.065703) with: {'activation': 'logistic', 'alpha': 10, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.128084 (std=0.049237) with: {'activation': 'logistic', 'alpha': 10, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.179427 (std=0.142643) with: {'activation': 'logistic', 'alpha': 10, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.135527 (std=0.065703) with: {'activation': 'logistic', 'alpha': 10, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.124961 (std=0.044585) with: {'activation': 'logistic', 'alpha': 100, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.221444 (std=0.154549) with: {'activation': 'logistic', 'alpha': 100, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.128454 (std=0.020539) with: {'activation': 'logistic', 'alpha': 100, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.388910 (std=0.252248) with: {'activation': 'logistic', 'alpha': 100, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.221444 (std=0.154549) with: {'activation': 'logistic', 'alpha': 100, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.128454 (std=0.020539) with: {'activation': 'logistic', 'alpha': 100, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.124961 (std=0.044585) with: {'activation': 'logistic', 'alpha': 100, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.221444 (std=0.154549) with: {'activation': 'logistic', 'alpha': 100, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.128454 (std=0.020539) with: {'activation': 'logistic', 'alpha': 100, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225452 (std=0.088623) with: {'activation': 'tanh', 'alpha': 0.0001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.371521 (std=0.095580) with: {'activation': 'tanh', 'alpha': 0.0001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.184957 (std=0.034133) with: {'activation': 'tanh', 'alpha': 0.0001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.400325 (std=0.111600) with: {'activation': 'tanh', 'alpha': 0.0001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.371521 (std=0.095580) with: {'activation': 'tanh', 'alpha': 0.0001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.184957 (std=0.034133) with: {'activation': 'tanh', 'alpha': 0.0001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225452 (std=0.088623) with: {'activation': 'tanh', 'alpha': 0.0001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.371521 (std=0.095580) with: {'activation': 'tanh', 'alpha': 0.0001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.184957 (std=0.034133) with: {'activation': 'tanh', 'alpha': 0.0001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225452 (std=0.088623) with: {'activation': 'tanh', 'alpha': 0.001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.372050 (std=0.094747) with: {'activation': 'tanh', 'alpha': 0.001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.184951 (std=0.034132) with: {'activation': 'tanh', 'alpha': 0.001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.400325 (std=0.111600) with: {'activation': 'tanh', 'alpha': 0.001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.372050 (std=0.094747) with: {'activation': 'tanh', 'alpha': 0.001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.184951 (std=0.034132) with: {'activation': 'tanh', 'alpha': 0.001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225452 (std=0.088623) with: {'activation': 'tanh', 'alpha': 0.001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.372050 (std=0.094747) with: {'activation': 'tanh', 'alpha': 0.001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.184951 (std=0.034132) with: {'activation': 'tanh', 'alpha': 0.001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225449 (std=0.088624) with: {'activation': 'tanh', 'alpha': 0.01, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.372275 (std=0.094487) with: {'activation': 'tanh', 'alpha': 0.01, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.184884 (std=0.034130) with: {'activation': 'tanh', 'alpha': 0.01, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.400324 (std=0.111600) with: {'activation': 'tanh', 'alpha': 0.01, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.372275 (std=0.094487) with: {'activation': 'tanh', 'alpha': 0.01, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.184884 (std=0.034130) with: {'activation': 'tanh', 'alpha': 0.01, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225449 (std=0.088624) with: {'activation': 'tanh', 'alpha': 0.01, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.372275 (std=0.094487) with: {'activation': 'tanh', 'alpha': 0.01, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.184884 (std=0.034130) with: {'activation': 'tanh', 'alpha': 0.01, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225424 (std=0.088634) with: {'activation': 'tanh', 'alpha': 0.1, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.371780 (std=0.094361) with: {'activation': 'tanh', 'alpha': 0.1, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.183753 (std=0.034256) with: {'activation': 'tanh', 'alpha': 0.1, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.400314 (std=0.111602) with: {'activation': 'tanh', 'alpha': 0.1, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.371780 (std=0.094361) with: {'activation': 'tanh', 'alpha': 0.1, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.183753 (std=0.034256) with: {'activation': 'tanh', 'alpha': 0.1, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.225424 (std=0.088634) with: {'activation': 'tanh', 'alpha': 0.1, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.371780 (std=0.094361) with: {'activation': 'tanh', 'alpha': 0.1, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.183753 (std=0.034256) with: {'activation': 'tanh', 'alpha': 0.1, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.222749 (std=0.089683) with: {'activation': 'tanh', 'alpha': 10, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.273724 (std=0.073967) with: {'activation': 'tanh', 'alpha': 10, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.160546 (std=0.003007) with: {'activation': 'tanh', 'alpha': 10, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.399166 (std=0.111817) with: {'activation': 'tanh', 'alpha': 10, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.273724 (std=0.073967) with: {'activation': 'tanh', 'alpha': 10, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.160546 (std=0.003007) with: {'activation': 'tanh', 'alpha': 10, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.222749 (std=0.089683) with: {'activation': 'tanh', 'alpha': 10, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.273724 (std=0.073967) with: {'activation': 'tanh', 'alpha': 10, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.160546 (std=0.003007) with: {'activation': 'tanh', 'alpha': 10, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.202968 (std=0.098818) with: {'activation': 'tanh', 'alpha': 100, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.241595 (std=0.107332) with: {'activation': 'tanh', 'alpha': 100, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.117872 (std=0.024756) with: {'activation': 'tanh', 'alpha': 100, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.389025 (std=0.113744) with: {'activation': 'tanh', 'alpha': 100, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.241595 (std=0.107332) with: {'activation': 'tanh', 'alpha': 100, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.117872 (std=0.024756) with: {'activation': 'tanh', 'alpha': 100, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.202968 (std=0.098818) with: {'activation': 'tanh', 'alpha': 100, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.241595 (std=0.107332) with: {'activation': 'tanh', 'alpha': 100, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.117872 (std=0.024756) with: {'activation': 'tanh', 'alpha': 100, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.303093 (std=0.163612) with: {'activation': 'relu', 'alpha': 0.0001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.445218 (std=0.281726) with: {'activation': 'relu', 'alpha': 0.0001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.217463 (std=0.047262) with: {'activation': 'relu', 'alpha': 0.0001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.484599 (std=0.178090) with: {'activation': 'relu', 'alpha': 0.0001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.445218 (std=0.281726) with: {'activation': 'relu', 'alpha': 0.0001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.217463 (std=0.047262) with: {'activation': 'relu', 'alpha': 0.0001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.303093 (std=0.163612) with: {'activation': 'relu', 'alpha': 0.0001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.445218 (std=0.281726) with: {'activation': 'relu', 'alpha': 0.0001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.217463 (std=0.047262) with: {'activation': 'relu', 'alpha': 0.0001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.303093 (std=0.163612) with: {'activation': 'relu', 'alpha': 0.001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.445604 (std=0.281315) with: {'activation': 'relu', 'alpha': 0.001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.217444 (std=0.047254) with: {'activation': 'relu', 'alpha': 0.001, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.484599 (std=0.178090) with: {'activation': 'relu', 'alpha': 0.001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.445604 (std=0.281315) with: {'activation': 'relu', 'alpha': 0.001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.217444 (std=0.047254) with: {'activation': 'relu', 'alpha': 0.001, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.303093 (std=0.163612) with: {'activation': 'relu', 'alpha': 0.001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.445604 (std=0.281315) with: {'activation': 'relu', 'alpha': 0.001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.217444 (std=0.047254) with: {'activation': 'relu', 'alpha': 0.001, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.303091 (std=0.163612) with: {'activation': 'relu', 'alpha': 0.01, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.446086 (std=0.281586) with: {'activation': 'relu', 'alpha': 0.01, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.217217 (std=0.047168) with: {'activation': 'relu', 'alpha': 0.01, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.484598 (std=0.178090) with: {'activation': 'relu', 'alpha': 0.01, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.446086 (std=0.281586) with: {'activation': 'relu', 'alpha': 0.01, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.217217 (std=0.047168) with: {'activation': 'relu', 'alpha': 0.01, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.303091 (std=0.163612) with: {'activation': 'relu', 'alpha': 0.01, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.446086 (std=0.281586) with: {'activation': 'relu', 'alpha': 0.01, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.217217 (std=0.047168) with: {'activation': 'relu', 'alpha': 0.01, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.303067 (std=0.163612) with: {'activation': 'relu', 'alpha': 0.1, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.444173 (std=0.279999) with: {'activation': 'relu', 'alpha': 0.1, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.212346 (std=0.046630) with: {'activation': 'relu', 'alpha': 0.1, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.484586 (std=0.178091) with: {'activation': 'relu', 'alpha': 0.1, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.444173 (std=0.279999) with: {'activation': 'relu', 'alpha': 0.1, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.212346 (std=0.046630) with: {'activation': 'relu', 'alpha': 0.1, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.303067 (std=0.163612) with: {'activation': 'relu', 'alpha': 0.1, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.444173 (std=0.279999) with: {'activation': 'relu', 'alpha': 0.1, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.212346 (std=0.046630) with: {'activation': 'relu', 'alpha': 0.1, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.300479 (std=0.163669) with: {'activation': 'relu', 'alpha': 10, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.185193 (std=0.036547) with: {'activation': 'relu', 'alpha': 10, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.139466 (std=0.020312) with: {'activation': 'relu', 'alpha': 10, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.483286 (std=0.178122) with: {'activation': 'relu', 'alpha': 10, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.185193 (std=0.036547) with: {'activation': 'relu', 'alpha': 10, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.139466 (std=0.020312) with: {'activation': 'relu', 'alpha': 10, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.300479 (std=0.163669) with: {'activation': 'relu', 'alpha': 10, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.185193 (std=0.036547) with: {'activation': 'relu', 'alpha': 10, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.139466 (std=0.020312) with: {'activation': 'relu', 'alpha': 10, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.280031 (std=0.163930) with: {'activation': 'relu', 'alpha': 100, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.335092 (std=0.171273) with: {'activation': 'relu', 'alpha': 100, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.138296 (std=0.000020) with: {'activation': 'relu', 'alpha': 100, 'learning_rate': 'constant', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.471762 (std=0.178352) with: {'activation': 'relu', 'alpha': 100, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.335092 (std=0.171273) with: {'activation': 'relu', 'alpha': 100, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.138296 (std=0.000020) with: {'activation': 'relu', 'alpha': 100, 'learning_rate': 'invscaling', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
+mean mae=-0.280031 (std=0.163930) with: {'activation': 'relu', 'alpha': 100, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'sgd', 'verbose': False}
+****************************************************
+mean mae=-0.335092 (std=0.171273) with: {'activation': 'relu', 'alpha': 100, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'adam', 'verbose': False}
+****************************************************
+mean mae=-0.138296 (std=0.000020) with: {'activation': 'relu', 'alpha': 100, 'learning_rate': 'adaptive', 'max_iter': 10, 'random_state': 5, 'solver': 'lbfgs', 'verbose': False}
+****************************************************
